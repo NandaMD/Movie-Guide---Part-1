@@ -36,13 +36,13 @@ def main():
 
     while True:
         command = input("Command: ")
-        if command.lower == "list":
+        if command.lower() == "list":
             list(movie_list)
-        elif command.lower == "add":
+        elif command.lower() == "add":
             add(movie_list)
-        elif command.lower == "del":
+        elif command.lower() == "del":
             delete(movie_list)
-        elif command.lower =="exit":
+        elif command.lower() =="exit":
             break
         else:
             print("Not a valid command. Please try again!\n")
